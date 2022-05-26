@@ -13,7 +13,8 @@ public interface IManager {
 	
 	void PriceAscendingSort(List<Bar_equipment> equipment);
 		
-	List<Bar_equipment> FindEquipmentByName(String name);
+	List<Bar_equipment> FindEquipmentByMaterial(String name);
+
 
 
 }
